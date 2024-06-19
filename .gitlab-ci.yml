@@ -1,0 +1,9 @@
+include:
+  - project: "hongnv.uet/x-basic-ci"
+    ref: main
+    file:
+      - "base-cicd.yaml"
+
+variables:
+  APP_NAME: starknet
+  APP_DIR: starknet-indexer
